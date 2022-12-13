@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=divice-width,initial-scale=1.0" />
         <meta http-equiv="X-UA-compitable" cotant="ie=edge" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Login form</title>
 
     </head>
@@ -15,24 +15,28 @@
 
     
         <div class="login-wrapper">
-            <form action="" class="form">
-                <h2> Login</h2>
-                <div class="input-group">
-                    <input type="text" name="loginUser" required />
-                    <label for="loginUser">User Name</label>
-                </div>
-                <div class="input-group">
-                    <input
-                     type="password"
-                     name="LoginPaswordd"
-                     id="LoginPasword"
-                     required
-                     />
-                     <label for="loginPasword">Password</label>
-
-                </div>
-                <input type="submit" value="login" class="submit-btn" />
-            </form>
+            <form
+            action="https://formspree.io/f/xgeqgjlk"
+            method="POST"
+             class="login-wrapper">
+                <form action="" class="form">
+                   
+                    <div class="input-group">
+                        <input type="text" name="loginUser" required />
+                        <label for="loginUser">User Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input
+                         type="password"
+                         name="LoginPaswordd"
+                         id="LoginPasword"
+                         required
+                         />
+                         <label for="loginPasword">Password</label>
+            
+                    </div>
+                    <input type="submit" value="login" class="submit-btn" />
+                </form>
         </div>
     </body>
 </html>
